@@ -1,0 +1,126 @@
+body,
+html {
+    margin: 0 auto;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.8em;
+}
+div{
+    display: block;
+}
+
+.Primera-imagen,  .Ultima-imagen{
+    position: relative;
+    background-image: url(Fondos_de_Paginas/image1.jpg);
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.70;
+}
+
+.texto1{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 37px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: aliceblue
+}
+
+.borde {
+    background-color: #111;
+    padding: 35px;
+}
+
+.Seccion-1 {
+    background-color: #f4f4f4;
+    color: #666;
+    text-align: center;
+    position: relative;
+    padding: 50px 80px;
+}
+
+.Seccion-2 {
+    text-align: center;
+    position: relative;
+    padding: 50px 80px;
+    background-color: #282e34;
+    color: antiquewhite;
+}
+
+.Segunda-imagen {
+    position: relative;
+    background-image: url(Fondos_de_Paginas/image2.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.texto2 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 37px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.Tercera-imagen {
+    position: relative;
+    background-image: url(Fondos_de_Paginas/image3.jpg);
+    min-height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.70;
+}
+
+.texto3 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 37px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.Seccion-3{
+    text-align: center;
+    position: relative;
+    padding: 50px 80px;
+    background-color: #282e34;
+    color: antiquewhite;
+}
+
+
+.ultimo-texto {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 445%;
+    font-size: 37px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: aliceblue
+}
+
+.ultimo-borde {
+    position: absolute;
+    background-color: #111;
+    padding: 35px;
+}

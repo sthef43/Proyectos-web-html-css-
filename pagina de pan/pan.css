@@ -1,0 +1,210 @@
+p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 44px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+h2{
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+h3{
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    margin: 15px;
+}
+
+
+.primera-imagen{
+    background-image: url(Fondo1.jpg);
+    width: 100%;
+    min-height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.primera-imagen .conte{
+    color: #ded6c0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 1.5cm;
+    position: relative;
+}
+.barra a{
+    color: #f5f0ed;
+    float: right;
+    margin: 30px 15px 40px 0;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    position: block;
+    display: block;
+    position: relative;
+}
+
+
+.caja1{
+    background-color: #ded6c0;
+    background-size: cover;
+    width: 50%;
+    height: 350px;
+    float: left;
+    position: relative;
+}
+.caja1 .dentrocontendor1{
+    color: #d03b40;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 1.5cm;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+.caja2{
+    background-color: #d03b40;
+    background-size: cover;
+    width: 50%;
+    height: 350px;
+    float: left;
+    position: relative;
+}
+
+
+.caja2 .dentrocontenedor2{
+    color: #ded6c0;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 1.5cm;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+.imagen3{
+    background-image: url(Fondo2.jpg);
+    height: 550px;
+    margin-top: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative  ;
+}
+.imagen3 .conte3{
+    color: #ded6c0;
+    text-align: center;
+    padding-top: 150px;
+}
+button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #ded6c0;
+    border-color: #ded6c0;
+    border-width: 4px;
+    border-radius: 0px;
+    padding: 10px;
+    background: none;
+    margin-top: 25px;
+}
+.iconos1{
+    float: left;
+    width: 50%;
+    height: 350px;
+    overflow: auto;
+    margin-top: 2cm;
+}
+.iconos1 img{
+    width: 200px;
+    float: left;
+}
+.iconos1 .piconos1{
+    color:#3c3c3b;
+
+}
+.iconos2{
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 350px;
+    overflow: auto;
+    margin-top: 2cm;
+}
+.iconos2 img{
+    width: 200px;
+    float: left;
+}
+.iconos2 .siconos2{
+    color: #3c3c3b;
+}
+.iconos3{
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 350px;
+    overflow: auto;
+}
+.iconos3 img{
+    width: 200px;
+    float: left;
+}
+.iconos3 .ticonos3{
+    color: #3c3c3b;
+}
+.iconos4{
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 350px;
+    overflow: auto;
+}
+.iconos4 img{
+    width: 200px;
+    float: left;
+}
+.iconos4 .cuaticonos4{
+    color: #3c3c3b;
+}
+.cajamail{
+    background-color: #d03b40;
+    background-size: cover;
+    width: 50%;
+    height: 350px;
+    float: left;
+    position: relative;
+}
+.cajamail .email{
+    font-family: 'Open Sans', sans-serif;
+    color: #ded6c0;
+    margin-top: 3cm;
+    text-align: center;
+    font-weight: 500;
+}
+.cajamail a{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #ded6c0;
+    text-decoration: none;
+}
+.cajamail2{
+    background-color: #ded6c0;
+    background-size: cover;
+    width: 50%;
+    height: 350px;
+    float: left;
+    position: relative;
+}
+.cajamail2 .direcion{
+    font-family: 'Open Sans', sans-serif;
+    color: #d03b40;
+    margin-top: 3cm;
+    text-align: center;
+    font-weight: 500;
+}
