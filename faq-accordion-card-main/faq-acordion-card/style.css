@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card{
+    width: 375px;
+    position: relative;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.women{
+    width: 300px;
+    height: 140px;
+}
+.box-desk{
+    position: relative;
+}
+.women #woman-mobile{
+    top: -110px;
+    position: absolute;
+    z-index: 1;
+    left: 52px;
+    right: 40px;
+}
+.women #sombra{
+    z-index: 0;
+    width: 290px;
+    position: absolute;
+    left: 50px;
+    top: 0;
+}
+.women #pattern-desktop,
+#box-desktop,
+#woman-desktop{
+    display: none;
+}
+
+.text{
+    margin: 0 auto;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+}
+.text h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.slider-text{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    width: 99%;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px solid hsl(240, 0%, 48%);
+}
+
+.slider-text.Active .parrafo-invisible{
+    display: block;
+}
+.slider-text.Active #arrow-up{
+    transform: rotate(180deg);
+}
+.slider-text.Active .texto_visible{
+    font-weight: bold;
+    color: black;
+}
+
+.slider-text:nth-child(6){
+    margin-bottom: 40px;
+}
+.texto_visible{
+    color: rgb(74, 75, 94);
+    font-weight: normal;
+}
+.parrafo-invisible{
+    margin-top: 16px;
+    display: none;
+    font-size: 1.4rem;
+    width: 300px;
+}
+.question{
+    position: relative;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#arrow-up{
+    transition: 0.5s;
+}
+
+@media (min-width:1500px){
+    .card{
+        position: relative;
+        flex-direction: row;
+        width: 1440px;
+        min-height: 700px;
+        max-height: 800px;
+        z-index: 0;
+    }
+    .text{
+        margin: 70px 130px 50px 0px;
+        width: 40%;
+        align-items: flex-start;
+    }
+    .text h1{
+        margin-bottom: 20px;
+    }
+    .texto_visible{
+        font-size: 2rem;
+    }
+    .parrafo-invisible{
+        width: 415px;
+        font-size: 1.7rem;
+    }
+    .women{
+        width: 900px;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .women #woman-mobile,
+    #sombra{
+        display: none;
+    }
+    .women #woman-desktop{
+        display: block;
+        position: absolute;
+        width: 640px;
+        top: 100px;
+        left: -90px;
+    }
+    .women #pattern-desktop{
+        display: block;
+        position: absolute;
+        width: 870px;
+        height: 1000px;
+        top: -200px;
+        left: -300px;
+    }
+    #box-desktop{
+        display: block;
+        position: absolute;
+        z-index: 1;
+        left: -105px;
+        top: 318px;
+        width: 226px;
+    }
+}

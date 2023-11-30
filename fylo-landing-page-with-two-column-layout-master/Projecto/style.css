@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+p{
+    color: hsl(243, 87%, 12%);
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2{
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(243, 87%, 12%);
+}
+#img-files{
+    width: 40%;
+    display: block;
+}
+#img-files img{
+    display: block;
+    width: 100%;
+    object-fit: contain;
+}
+
+.container{
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    padding: 40px 70px;
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 100%;
+    object-fit: cover;
+}
+.links a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: rgb(65, 59, 59);
+}
+
+.register{
+    padding: 40px 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-register{
+    width: 55%;
+}
+.text-register h1{
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+.text-register p{
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.register-email{
+    margin-top: 30px;
+    width: 100%;
+}
+#enter-email{
+    height: 40px;
+    width: 320px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+#star{
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+.resumen{
+    margin-top: 180px;
+    padding: 40px 70px;
+    width: 100%;
+    background-image: url("../images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-fondo{
+    margin-top: 70px;
+    width: 600px;
+}
+.text-fondo h1{
+    font-size: 3.6rem;
+    margin-bottom: 26px;
+}
+.text-fondo p{
+    display: block;
+    font-size: 1.7rem;
+}
+.text-fondo a{
+    font-size: 1.8rem;
+    text-align: center;
+    color: green;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid green;
+    padding-bottom: 6px;
+}
+.text-fondo a:hover{
+    color: red;
+    border-bottom: red 1px solid;
+}
+
+.card{
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 1px 1px 31px 0px rgba(196,196,196,1);
+    margin-top: 60px;
+    width: 380px;
+}
+.card p{
+    font-size: 1.5rem;
+    line-height: 1.7em;
+}
+.perfil{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.icon-perfil img{
+    width: 40px;
+    border-radius: 50px;
+}
+.perfil p{
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.create-acount{
+    background-color: rgb(66, 66, 196);
+    width: 100%;
+    padding: 80px 120px 80px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.create-acount .text{
+    width: 480px;
+}
+.create-acount .inputs{
+    display: flex;
+}
+.create-acount .inputs #enter-email{
+    margin-bottom: 10px;
+    width: 420px;
+}
+.create-acount .inputs #star{
+    margin-bottom: 10px;
+    width: 200px;
+}
+.create-acount .text h2{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 3.6rem;
+}
+.create-acount .text p{
+    font-size:  1.5rem;
+    color: white;
+}
+
+.last-section{
+    background-color: rgb(29, 29, 161);
+    padding: 90px 80px 90px 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.last-section p{
+    color: white;
+    font-size: 1.3rem;
+}
+.last-section .links-footer{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.last-section .links-footer a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: -30px;
+}
+.last-section .logo img{
+    margin-bottom: 10px;
+    width: 170px;
+}
+.last-section .icon{
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.last-section .icon img{
+    margin-right: 10px;
+    width: 16px;
+}
+
+.last-section .social-icons{
+    margin-right: 50px;
+}
+.last-section .social-icons i{
+    margin-right: 10px;
+    font-size: 2rem;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+}
